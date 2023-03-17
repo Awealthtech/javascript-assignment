@@ -8,3 +8,4 @@ const generateotp = () =>{
     return splitted;
 };
 console.log(generateotp());
+document.getElementsbyid("display_otp").innerhtml = generateotp();
