@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>otp_generator</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <input id="display_otp">
-    <button onclick="generateotp">Generate-OTP</button>
+    <div class="main">
+        <div class="pcontainer">
+            <p id="display_otp"></p>
+        </div>
+        <div class="bt">
+            <button onclick="generate();" id="otp_generator">Generate-OTP</button> 
+        </div> 
+    </div>  
 </body>
 <script src="main.js"></script>
 </html>
