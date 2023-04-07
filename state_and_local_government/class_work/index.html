@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h3>Transfer to any bank here</h3>
+   <input type="number" id="amount" value="number" placeholder="Enter amount">
+   <input type="text" id="status" value="Active/Dormant">
+   <select>
+    <option>Gtb</option>
+    <option>UBA</option>
+    <option>Zenith</option>
+    <option>Union</option>
+    <option>Polaris</option>
+</select>
+   <button onclick="transfer()" >Transfer</button>
+   <p id="output"></p>
+   <h3>Withdraw below</h3>
+   <input type="number" id="fund" value="number" placeholder="Enter amount">
+   <input type="text" id="Bank" value="Bank name">
+   <button onclick="withdraw()" >withdraw</button>
+   <p id="output2"></p>
+</body>
+<script src="index.js"></script>
+</html>
